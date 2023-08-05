@@ -1,0 +1,27 @@
+appenders = console, file
+appender.console.type = Console
+appender.console.name = STDOUT
+appender.console.layout.type = PatternLayout
+appender.console.layout.pattern = [%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+
+appender.file.type = File
+appender.file.name = File
+appender.file.fileName = app.log
+appender.file.layout.type = PatternLayout
+appender.file.layout.pattern = [%-5level] %d{dd-MM-yyyy HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+
+rootLogger.level = info
+rootLogger.appenderRefs = stdout
+rootLogger.appenderRef.stdout.ref = STDOUT
+rootLogger.appenderRef.file.ref = File
+
+logger.hibernate.name = org.hibernate.SQL
+logger.hibernate.level = debug
+
+logger.hibernate-type.name = org.hibernate.type
+logger.hibernate-type.level = trace
+
+
+
+logger.hibernate-transaction.name=org.hibernate.transaction
+logger.hibernate-transaction.level=debug
