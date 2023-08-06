@@ -2,8 +2,9 @@
 
 <https://www.udemy.com/course/spring-framework>
 
-**Spring Framework**: Spring IoC & DI, Spring AOP, Spring MVC, Spring REST, Spring Security, Spring Boot  
-**Hibernate Framework**
+**Spring Framework**: Spring IoC & DI, Spring AOP, Spring Web MVC, Spring REST API, Spring Data JPA, Spring Security, Spring Boot  
+**Hibernate Framework**  
+Tomcat, MySQL, JSP, JSTL, JSON  
 
 <details>
     <summary>
