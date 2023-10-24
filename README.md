@@ -8,9 +8,7 @@ Tomcat, MySQL, JSP, JSTL, JSON
 
 <details>
     <summary>
-        <strong>
-            <big>Программа курса</big>
-        </strong>
+        <b>Программа курса</b>
     </summary>
 
 1. **Рассмотрение IoC и DI**  
