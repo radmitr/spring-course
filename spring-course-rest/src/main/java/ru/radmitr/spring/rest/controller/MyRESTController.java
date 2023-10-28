@@ -53,7 +53,7 @@ public class MyRESTController {
 
     @PutMapping("/employees")
     public Employee updateEmployee(@RequestBody Employee employee) {
-        employeeService.saveEmployee(employee); // if there is already an id, there will be a change in the database
+        employeeService.saveEmployee(employee); // if id already exists, changes will occur in the database
         return employee;
     }
 
