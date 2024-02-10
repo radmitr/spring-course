@@ -24,7 +24,7 @@
         <log4j.version>2.20.0</log4j.version>
         <spring.version>5.3.29</spring.version>
         <javax.servlet.version>4.0.1</javax.servlet.version>
-        <spring.security.version>5.8.5</spring.security.version>
+        <spring.security.version>5.8.7</spring.security.version>
         <mysql.connector.version>8.0.33</mysql.connector.version>
         <c3p0.version>0.9.5.5</c3p0.version>
         <!-- plugin versions -->
